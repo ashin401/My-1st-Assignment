@@ -1,0 +1,408 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+  background-image: url(../Assets/Hero-bg.png); 
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #111;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3b49df;
+}
+
+.signup-btn {
+  background-color: #3b49df;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-content {
+  margin: auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+
+
+/* Banner Section */
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+  text-align: center;
+  padding: 0 20px;
+}
+
+.banner-section h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+.cta-btn {
+  background-color: #4F46E5;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Action Preview Section*/
+.preview-section {
+  background-color: #f7f6f6;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+.text-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 16px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.preview-btn, .focus-btn {
+  background-color: #4F46E5;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  border-style: none;
+}
+
+.signup-btn:hover,
+.focus-btn:hover,
+.preview-btn:hover {
+   background-color: #2980b9;
+   transform: scale(1.05);
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Productive Users Section */
+.stats {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7f6f6;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-box {
+  background-color: #e8eaff;
+  border-radius: 14px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.stats-box h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.stats-numbers {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat-item h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4c4cff;
+  margin: 0;
+}
+
+.stat-item .number {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.stat-item .unit {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  padding: 40px;
+  background: #f8f7f6;
+  font-family: sans-serif;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 18px;
+  height: 18px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+
+/* focus-section*/
+.focus-section {
+  background-color: #f7f6f6;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px auto;
+  max-width: 100%;
+}
+
+.focus-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.focus-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.focus-image {
+  margin-top: 30px;
+}
+
+.focus-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*contact-section*/
+
+.contact-section {
+  background-color: #f7f6f6;
+  padding: 60px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #111;
+  line-height: 1.2;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3b49df;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #3b49df;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*footer section*/
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #3b49df;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #3b49df;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
